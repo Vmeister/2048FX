@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="MainMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <Button fx:id="startGameBtn" layoutX="100.0" layoutY="187.0" mnemonicParsing="false" onAction="#startGameAction" prefHeight="40.0" prefWidth="200.0" text="Start Game" />
+      <Button fx:id="scoresBtn" layoutX="100.0" layoutY="243.0" mnemonicParsing="false" onAction="#showScoresAction" prefHeight="40.0" prefWidth="200.0" text="Top Scores" />
+      <Button fx:id="exitGameBtn" layoutX="100.0" layoutY="300.0" mnemonicParsing="false" onAction="#exitAction" prefHeight="40.0" prefWidth="200.0" text="Exit Game" />
+      <Label fx:id="mainMenuLabel" alignment="CENTER" layoutX="113.0" layoutY="57.0" prefHeight="121.0" prefWidth="174.0" text="2048" textAlignment="CENTER" underline="true">
+         <font>
+            <Font name="Bodoni MT" size="72.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

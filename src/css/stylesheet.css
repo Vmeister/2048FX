@@ -1,0 +1,109 @@
+.root {
+    -fx-font-family: 'Book Antiqua', Palatino, 'Palatino Linotype', 'Palatino LT STD';
+    -fx-font-weight: normal;
+}
+
+.tab-pane .tab-header-area .tab-header-background {
+    -fx-opacity: 30;
+}
+
+.tab-pane
+{
+    -fx-tab-min-width:90px;
+}
+
+.tab{
+    -fx-background-insets: 0 1 0 1,0,0;
+}
+
+.tab .tab-label { 
+    -fx-alignment: CENTER;
+    -fx-font-size: 12px;
+}
+
+.tab:selected .tab-label { 
+    -fx-font-size: 14px;
+}
+
+.pane {
+    -fx-background-color: #3c3c3c;
+}
+
+.button2{
+    -fx-alignment: center;
+    -fx-background-color: #90C3D4;
+    -fx-border-color: black;
+    -fx-font-size: 105%;
+}
+.button4{
+    -fx-alignment: center;
+    -fx-background-color: #C390D4;
+    -fx-border-color: black;
+    -fx-font-size: 110%;
+}
+.button8{
+    -fx-alignment: center;
+    -fx-background-color: #D4A190;
+    -fx-border-color: black;
+    -fx-font-size: 115%;
+}
+.button16{
+    -fx-alignment: center;
+    -fx-background-color: #90D498;
+    -fx-border-color: black;
+    -fx-font-size: 120%;
+}
+.button32{
+    -fx-alignment: center;
+    -fx-background-color: #DFB951;
+    -fx-border-color: black;
+    -fx-font-size: 125%;
+}
+.button64{
+    -fx-alignment: center;
+    -fx-background-color: #D49098;
+    -fx-border-color: black;
+    -fx-font-size: 130%;
+}
+.button128{
+    -fx-alignment: center;
+    -fx-background-color: #D0BFE3;
+    -fx-border-color: black;
+    -fx-font-size: 135%;
+}
+.button256{
+    -fx-alignment: center;
+    -fx-background-color: #6FEEFC;
+    -fx-border-color: black;
+    -fx-font-size: 140%;
+}
+.button512{
+    -fx-alignment: center;
+    -fx-background-color: #F28C61;
+    -fx-border-color: black;
+    -fx-font-size: 145%;
+}
+.button1024{
+    -fx-alignment: center;
+    -fx-background-color: #ADADAD;
+    -fx-border-color: black;
+    -fx-font-size: 150%;
+}
+.button2048{
+    -fx-alignment: center;
+    -fx-background-color: #EDA6A1;
+    -fx-border-color: black;
+    -fx-font-size: 155%;
+}
+.button4096{
+    -fx-alignment: center;
+    -fx-background-color: #A6E7F5;
+    -fx-border-color: black;
+    -fx-font-size: 160%;
+}
+.button8192{
+    -fx-alignment: center;
+    -fx-background-color: #F5EFA6;
+    -fx-border-color: black;
+    -fx-font-size: 165%;
+}
